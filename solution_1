@@ -1,0 +1,23 @@
+use srm;
+create database srm;
+create table srm.student(
+s_no int,
+name varchar(20),
+roll_no varchar(30),
+dept varchar(50),
+clg_name varchar(30) 
+);
+use srm;
+show tables;
+select * from srm.student;
+insert into srm.student values
+(1,"raja","20","bt","SRM"),
+(2,"Mani","22","bt","SRM"),
+(3,"sandy","25","mech","SRM"),
+(4,"sam","27","mct","SRM"),
+(5,"varsha","29","mct","SRM"),
+(6,"manoj","21","mech","SRM"),
+(7,"vino","36","mct","SRM"),
+(8,"gopi","56","mech","SRM"),
+(9,"rishy","46","mech","SRM"),
+(10,"ramesh","58","mct","SRM");
